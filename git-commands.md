@@ -1,4 +1,4 @@
-git config --global alias.stash 'stash --all'
+'''git config --global alias.stash 'stash --all' '''
 
 git config --global alias.bb !better-branch.sh
 
@@ -8,4 +8,7 @@ conditional configs:
 
 [includeIf "gitdir:~/projects/oss/"] 
   path = ~/projects/oss/.gitconfig
+
+#Blame
+igt 
 
