@@ -20,8 +20,8 @@ curl -X POST -d "key1=value1&key2=value2" <url>
 ```
 
 ## 4. POST Request with JSON Data
-# Send a POST request with JSON data
 ```
+# Send a POST request with JSON data
 curl -X POST -H "Content-Type: application/json" -d '{"key1": "value1", "key2": "value2"}' <url>
 ```
 
