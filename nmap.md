@@ -26,5 +26,28 @@ nmap -O <target>
 nmap -A <target>
 ```
 
+## 6. Fast Scan: Faster completion, suitable for quick scans.
+```
+nmap -F <target>
+```
+
+## 7. Scan Multiple Targets: Scan multiple targets.
+```
+nmap <target1 target2 ...>
+```
+
+## 8. Output to File: Save scan results to a file.
+```
+nmap -oN output.txt <target>
+```
+
+## 9. Verbose Output: Increase verbosity level for detailed output.
+```
+nmap -v <target>
+```
+
+
+
+
 
 
